@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background: #000;
+}
+
+#bern{
+    width: 112px;
+    height: 156px;
+    position: relative;
+    bottom:42px;
+    margin: auto;
+    background: url("./assets/images/bern.png");
+    animation: walk 1s steps(6) infinite;
+}
+
+#cielo{
+    background: url(assets/images/cielo.png) ;
+    animation: movebg 6s linear infinite;
+}
+
+#suelo{
+    background: url(assets/images/suelo.png) ;
+    animation: movebg 9s linear infinite;
+    position: relative;
+    top: 150px;
+}
+
+@keyframes walk{
+    0% {background-position: 0}
+    100% {background-position: -672px}
+}
+
+@keyframes movebg{
+    0% {background-position: 550px}
+    100% {background-position: 0}
+}
