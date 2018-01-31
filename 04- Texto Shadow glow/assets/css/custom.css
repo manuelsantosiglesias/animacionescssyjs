@@ -1,0 +1,33 @@
+/*
+    Custom CSS
+*/
+
+body {
+    margin: 50px;
+}
+
+.glow {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    font: normal 48px/normal "Warnes", Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: normal;
+    text-align: center;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #33eb25, 0 0 70px #33eb25, 0 0 80px #33eb25, 0 0 100px #33eb25;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    animation: glowanim 5s infinite alternate ease-in-out -9s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes glowanim {
+    50% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff, 0 0 100px #00ffff;
+    }
+    100%{
+                text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000, 0 0 100px #ff0000;
+    }
+}
