@@ -19,3 +19,7 @@ Default template para empezar una animación nuevo
 04- Texto shadow glow
 
 ![04- Texto shadow glow](https://user-images.githubusercontent.com/29311335/35641142-a2d3ff02-06bf-11e8-8ac4-3cf9c30a776a.gif)
+
+05- Loading circle
+
+![circulo](https://user-images.githubusercontent.com/29311335/35704445-d6f17608-079f-11e8-9a25-fd0bbfaf5b67.gif)
