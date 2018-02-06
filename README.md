@@ -23,3 +23,7 @@ Default template para empezar una animación nuevo
 05- Loading circle
 
 ![circulo](https://user-images.githubusercontent.com/29311335/35704445-d6f17608-079f-11e8-9a25-fd0bbfaf5b67.gif)
+
+06- SVG Anim
+
+![svg](https://user-images.githubusercontent.com/29311335/35870388-d79d0926-0b61-11e8-9d5c-5fa54239d675.gif)
